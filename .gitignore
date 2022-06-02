@@ -1,0 +1,60 @@
+.DS_Store
+.vscode
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+/react-complete-guide-code-01-getting-started/code/react-vs-vanilla-js-example/react/node_modules
+/react-complete-guide-code-01-getting-started/code/react-vs-vanilla-js-example/react/package-lock.json
+/react-complete-guide-code-01-getting-started/code/react-vs-vanilla-js-example/react/README.md
+
+/react-complete-guide-code-02-js-refresher
+/react-complete-guide-code-03-react-basics-working-with-components
+/react-complete-guide-code-04-react-state-events
+/react-complete-guide-code-05-rendering-lists-conditional-content
+/react-complete-guide-code-06-styling
+/react-complete-guide-code-07-debugging
+/react-complete-guide-code-08-practice-project
+/react-complete-guide-code-09-fragments-portals-refs
+/react-complete-guide-code-10-side-effects-reducers-context-api
+/react-complete-guide-code-11-practice-food-order-app
+/react-complete-guide-code-12-a-look-behind-the-scenes
+/react-complete-guide-code-13-class-based-cmp
+/react-complete-guide-code-14-sending-http-requests
+/react-complete-guide-code-15-building-custom-react-hooks
+/react-complete-guide-code-16-working-with-forms
+/react-complete-guide-code-17-practice-food-order-http-forms
+/react-complete-guide-code-18-diving-into-redux
+/react-complete-guide-code-19-advanced-redux
+/react-complete-guide-code-20-building-mpas-with-react-router
+/react-complete-guide-code-21-deploying-react-apps
+/react-complete-guide-code-22-authentication
+/react-complete-guide-code-23-nextjs-introduction
+/react-complete-guide-code-24-animations
+/react-complete-guide-code-25-replacing-redux
+/react-complete-guide-code-26-testing
+/react-complete-guide-code-27-react-typescript
+/react-complete-guide-code-28-react-hooks-intro-and-summary
+/react-complete-guide-code-zz-reactjs-summary
+/react-complete-guide-code-master
