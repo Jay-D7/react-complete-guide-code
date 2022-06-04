@@ -25,12 +25,11 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-/react-complete-guide-code-01-getting-started/code/react-vs-vanilla-js-example/react/node_modules
-/react-complete-guide-code-01-getting-started/code/react-vs-vanilla-js-example/react/package-lock.json
-/react-complete-guide-code-01-getting-started/code/react-vs-vanilla-js-example/react/README.md
+/01-getting-started/code/react-vs-vanilla-js-example/react/node_modules
+/01-getting-started/code/react-vs-vanilla-js-example/react/package-lock.json
+/01-getting-started/code/react-vs-vanilla-js-example/react/README.md
 
-/react-complete-guide-code-02-js-refresher
-/react-complete-guide-code-03-react-basics-working-with-components
+/03-react-basics-working-with-components
 /react-complete-guide-code-04-react-state-events
 /react-complete-guide-code-05-rendering-lists-conditional-content
 /react-complete-guide-code-06-styling
