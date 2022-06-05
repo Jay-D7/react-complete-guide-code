@@ -4,6 +4,7 @@
 
 # dependencies
 /node_modules
+node_modules/
 
 /.pnp
 .pnp.js
@@ -25,11 +26,23 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-/01-getting-started/code/react-vs-vanilla-js-example/react/node_modules
-/01-getting-started/code/react-vs-vanilla-js-example/react/package-lock.json
+package-lock.json
 /01-getting-started/code/react-vs-vanilla-js-example/react/README.md
+# 03-react-basics-working-with-components/code/
+# !03-react-basics-working-with-components/code/01-starting-setup
 
-/03-react-basics-working-with-components
+
+02-building-a-first-custom-component
+03-writing-more-complex-jsx-code
+04-adding-basic-css-styling
+05-outputting-dynamic-data
+06-passing-data-via-props
+07-adding-normal-javascript-logic
+08-splitting-components-into-multiple-components
+09-assignment-1-solution
+10-the-concept-of-composition
+11-finished
+
 /react-complete-guide-code-04-react-state-events
 /react-complete-guide-code-05-rendering-lists-conditional-content
 /react-complete-guide-code-06-styling
