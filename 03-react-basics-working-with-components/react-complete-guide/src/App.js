@@ -1,4 +1,4 @@
-// import React from 'react';
+import React from 'react';
 import Expenses from './components/Expenses';
 
 function App() {
@@ -31,6 +31,7 @@ function App() {
     </div>
   );
 
+  // Writing code without JSX So You always needed add import React from 'react'; in each file
   // return React.createElement(
   //   'div',
   //   {},
