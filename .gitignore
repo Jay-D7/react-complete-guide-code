@@ -43,12 +43,12 @@ package-lock.json
 10-the-concept-of-composition
 11-finished
 
-/react-complete-guide-code-04-react-state-events
-/react-complete-guide-code-05-rendering-lists-conditional-content
-/react-complete-guide-code-06-styling
-/react-complete-guide-code-07-debugging
-/react-complete-guide-code-08-practice-project
-/react-complete-guide-code-09-fragments-portals-refs
+/04-react-state-events
+/05-rendering-lists-conditional-content
+/06-styling
+/07-debugging
+/08-practice-project
+/09-fragments-portals-refs
 /react-complete-guide-code-10-side-effects-reducers-context-api
 /react-complete-guide-code-11-practice-food-order-app
 /react-complete-guide-code-12-a-look-behind-the-scenes
