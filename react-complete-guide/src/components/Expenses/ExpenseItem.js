@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 import ExpenseDate from './ExpenseDate';
 import Card from '../UI/Card';
@@ -6,12 +6,13 @@ import './ExpenseItem.css';
 
 const ExpenseItem = (props) => {
   // function clickHandler() {} // The same below,
+  const [title, setTitle] = useState(props.title); // must be called Direcly inside component function
+  //Array destructing
 
-  let title = props.title;
   // Preference 'Handler' ending of function not called by us,
   // but attached to event listener, React call it when event occurs
   const clickHandler = () => {
-    title = 'Updated';
+    setTitle('Updated!');
     console.log(title);
   };
 
