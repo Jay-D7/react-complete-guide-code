@@ -1,13 +1,16 @@
 import React, { useState } from 'react';
+import ExpenseDate from '../Expenses/ExpenseDate';
 
 import './ExpenseForm.css';
 
 const ExpenseForm = () => {
   // document.getElementById('').addEventListener('click', function (event) {});
+
   // Multiple states approach
   const [enteredTitle, setEnteredTitle] = useState('');
   const [enteredAmount, setEnteredAmount] = useState('');
   const [enteredDate, setEnteredDate] = useState('');
+  // Combine states approach
   // const [userInput, setUserInput] = useState({
   //   setEnteredTitle: '',
   //   setEnteredAmount: '',
@@ -41,8 +44,20 @@ const ExpenseForm = () => {
     // });
   };
 
+  const submitHandler = (event) => {
+    event.preventDefault();
+
+    const expenseData = {
+      title: enteredTitle,
+      amount: enteredAmount,
+      date: new Date(enteredDate),
+    };
+
+    console.log(expenseData);
+  };
+
   return (
-    <form action="">
+    <form onSubmit={submitHandler}>
       <div className="new-expense__controls">
         <div className="new-expense__control">
           <label>Title</label>
