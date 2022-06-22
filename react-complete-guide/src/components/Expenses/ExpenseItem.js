@@ -6,7 +6,7 @@ import './ExpenseItem.css';
 
 const ExpenseItem = (props) => {
   // function clickHandler() {} // The same below,
-  //Array destructing
+  //Array destructuring
   // const [title, setTitle] = useState(props.title); // must be called Direcly inside component function
   // console.log('ExpenseItem evaluated by React');
   // Preference 'Handler' ending of function not called by us,
