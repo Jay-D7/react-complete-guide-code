@@ -6,7 +6,7 @@ import './ExpenseItem.css';
 
 const ExpenseItem = (props) => {
   // function clickHandler() {} // The same below,
-  //Array destructing
+  //Array destructuring
   // const [title, setTitle] = useState(props.title); // must be called Direcly inside component function
   // console.log('ExpenseItem evaluated by React');
   // Preference 'Handler' ending of function not called by us,
@@ -17,15 +17,17 @@ const ExpenseItem = (props) => {
   // };
 
   return (
-    <Card className="expense-item">
-      <ExpenseDate date={props.date} />
-      <div className="expense-item__description">
-        {/* <h2>{title}</h2> */}
-        <h2>{props.title}</h2>
-        <div className="expense-item__price">${props.amount}</div>
-      </div>
-      {/* <button onClick={clickHandler}>Change Title</button> */}
-    </Card>
+    <li>
+      <Card className="expense-item">
+        <ExpenseDate date={props.date} />
+        <div className="expense-item__description">
+          {/* <h2>{title}</h2> */}
+          <h2>{props.title}</h2>
+          <div className="expense-item__price">${props.amount}</div>
+        </div>
+        {/* <button onClick={clickHandler}>Change Title</button> */}
+      </Card>
+    </li>
   );
 };
 
