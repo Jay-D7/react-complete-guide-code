@@ -1,8 +1,19 @@
 import React from 'react';
-// import styled from 'styled-components';
 
 import styles from './Button.module.css';
 // import './Button.css';
+
+const Button = (props) => {
+  return (
+    <button type={props.type} className={styles.button} onClick={props.onClick}>
+      {props.children}
+    </button>
+  );
+};
+
+export default Button;
+
+// import styled from 'styled-components';
 
 // const Button = styled.button`
 //   width: 100%;
@@ -29,13 +40,3 @@ import styles from './Button.module.css';
 //     box-shadow: 0 0 8px rgba(0, 0, 0, 0.26);
 //   }
 // `;
-
-const Button = (props) => {
-  return (
-    <button type={props.type} className={styles.button} onClick={props.onClick}>
-      {props.children}
-    </button>
-  );
-};
-
-export default Button;
