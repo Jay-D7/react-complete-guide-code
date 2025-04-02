@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/react-complete-guide-code/static/css/main.a2f98889.css",
+    "main.js": "/react-complete-guide-code/static/js/main.2e3dde48.js",
+    "index.html": "/react-complete-guide-code/index.html",
+    "main.a2f98889.css.map": "/react-complete-guide-code/static/css/main.a2f98889.css.map",
+    "main.2e3dde48.js.map": "/react-complete-guide-code/static/js/main.2e3dde48.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a2f98889.css",
+    "static/js/main.2e3dde48.js"
+  ]
+}
